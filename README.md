@@ -25,13 +25,14 @@ Currently, on our main screen there is an option for login as police or login as
 """""""""Police Login can only be logged in by using some authenticated police id and name
 for now we have used 10 dummy police id to just show the process of authentication...
 To Login and see the complains in this prototype you can use--->
-          police name->arun kumar
-          police id-> 800123
-          police area under surveillance->ashok nagar"""""""""
+          (police name->arun kumar)
+          (police id-> 800123)
+          (police area under surveillance->ashok nagar)"""""""""
+         
+"""""""""for login into citizen you can register a new user or u can use our dummy user who is
+(email-id->user@gmail.com)  
+(password->user123)""""""""
           
-
-
-
 "Process Flow diagram is present int the readme.pdf section please have a look there"
 
  
