@@ -66,6 +66,7 @@ public class NearByHospitals extends AppCompatActivity implements OnMapReadyCall
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_near_by_hospitals);
         showt=findViewById(R.id.button1);
+        back=findViewById(R.id.button2);
 
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
@@ -82,6 +83,14 @@ public class NearByHospitals extends AppCompatActivity implements OnMapReadyCall
                 startActivity(m);
             }
         });
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent m=new Intent(NearByHospitals.this,Citizen.class);
+                startActivity(m);
+            }
+        });
+
 
         //startSearch("Hospitals",true,null,true);
     }

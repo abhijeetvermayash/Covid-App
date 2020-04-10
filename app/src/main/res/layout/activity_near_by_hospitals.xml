@@ -40,6 +40,7 @@
 
             />
 
+
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
@@ -55,9 +56,20 @@
         android:textStyle="bold" />
 </LinearLayout>
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#d6cbd3"
+        android:onClick="onClick"
+        android:text="back"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:layout_marginTop="550dp"
 
 
 
+        />
 
 
 </RelativeLayout>
