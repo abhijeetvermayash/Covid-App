@@ -22,6 +22,15 @@ Since it is an application for android, there is no such hardware requirement. F
 PROCESS FLOW:
 Currently, on our main screen there is an option for login as police or login as citizen. This is only for demonstration purpose. This could be two app, one only for citizens where they can register their complains and chat a medical representative and the second app will be for police where they could login through their login ID and see the complains of their area.
 
+"""""""""Police Login can only be logged in by using some authenticated police id and name
+for now we have used 10 dummy police id to just show the process of authentication...
+To Login and see the complains in this prototype you can use--->
+          police name->arun kumar
+          police id-> 800123
+          police area under surveillance->ashok nagar"""""""""
+          
+
+
 
 "Process Flow diagram is present int the readme.pdf section please have a look there"
 
