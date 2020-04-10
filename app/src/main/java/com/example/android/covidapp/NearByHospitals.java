@@ -60,12 +60,13 @@ public class NearByHospitals extends AppCompatActivity implements OnMapReadyCall
     private double latitude, longitude;
     private final float DEFAULT_ZOOM = 18;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_near_by_hospitals);
         showt=findViewById(R.id.button1);
-        back=findViewById(R.id.buttonback);
+
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
         mapView = mapFragment.getView();
@@ -82,13 +83,6 @@ public class NearByHospitals extends AppCompatActivity implements OnMapReadyCall
             }
         });
 
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent g=new Intent(NearByHospitals.this,Citizen.class);
-                startActivity(g);
-            }
-        });
         //startSearch("Hospitals",true,null,true);
     }
 
